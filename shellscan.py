@@ -57,6 +57,7 @@ def main():
         if len(sys.argv) < 2:
             print(parser.usage())
         else:
+            os.system("clear")
             os.system("cls")
             print("\33[96m[#] \33[94m Tarama Başlatıldı {}".format(local_time()))
             time.sleep(1)
@@ -65,6 +66,7 @@ def main():
             brute(u)
             print("\n\33[96m[#] \33[94m  Tarama Yapıldı. {}".format(local_time()))
             time.sleep(1)
+            os.system("clear")
             os.system("cls")
             print("")
             print("\33[96m[#] \33[94m İyi Günler...")
